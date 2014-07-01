@@ -1,0 +1,7 @@
+require './Fizz_Buzz'
+
+describe "Fizz_Buzz" do
+	it "replies the same number" do
+    expect(Fizz_Buzz.play(1)).to eq(1)
+    expect(Fizz_Buzz.play(2)).to eq(2)
+  end  
